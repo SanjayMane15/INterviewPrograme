@@ -18,7 +18,16 @@ public class StringConversion {
 		// case 4: String to double
 		double d = Double.parseDouble(s);
 		System.out.println("String to double " + d);
-
+		// Case 5 : String to boolean
+		String s1="true";
+		String s2="false";
+		String s3="ok";
+		boolean b1=Boolean.parseBoolean(s1);
+		System.out.println(b1);
+		boolean b2=Boolean.parseBoolean(s2);
+		System.out.println(b2);
+		boolean b3=Boolean.parseBoolean(s3);
+		System.out.println(b3);
 	}
 
 }
