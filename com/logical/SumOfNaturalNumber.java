@@ -7,7 +7,7 @@ public class SumOfNaturalNumber {
 
 		// By using for Loop
 		int num1 = 1;
-		int num2 = 100;
+		int num2 = 10;
 		int sum = 0;
 		for (int i = num1; i <= num2; i++) {
 			sum += i;
